@@ -7,6 +7,9 @@ $(function() {
       $(elem).append("");
       $("#myList").append(elem);
       $("input").val("");
+      $("li").click(function() {
+        $(this).hide();
+      });
     }
   });
 });
